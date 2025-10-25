@@ -1,7 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="156" height="104">
-        <filter id="g" x="-50%" y="-50%" width="200%" height="200%">
-          <feGaussianBlur in="SourceAlpha" stdDeviation="2.5" result="blur"></feGaussianBlur>
-          <feColorMatrix in="blur" type="matrix"
-            values="0 0 0 0 0  0 0 0 0 1  0 0 0 0 1  0 0 0 0.7 0" result="glow"/>
-          <feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
-        </filter><rect x="8.0" y="7.0" width="20" height="38" rx="9" ry="9" fill="#00ffff"/><rect x="59.0" y="8.0" width="38" height="20" rx="9" ry="9" fill="#00ffff"/><rect x="45.0" y="7.0" width="20" height="38" rx="9" ry="9" fill="#00ffff"/><rect x="111.0" y="8.0" width="38" height="20" rx="9" ry="9" fill="#00ffff"/><g filter="url(#g)"><rect x="8.0" y="59.0" width="20" height="38" rx="9" ry="9" fill="#00ffff"/><rect x="59.0" y="60.0" width="38" height="20" rx="9" ry="9" fill="#00ffff"/><rect x="45.0" y="59.0" width="20" height="38" rx="9" ry="9" fill="#00ffff"/><rect x="111.0" y="60.0" width="38" height="20" rx="9" ry="9" fill="#00ffff"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="156" height="104"><rect width="156" height="104" fill="none"/>
+<filter id="g" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur in="SourceAlpha" stdDeviation="3.2" result="b"/>
+  <feColorMatrix in="b" type="matrix"
+    values="0 0 0 0 0  0 0 0 0 1  0 0 0 0 1  0 0 0 0.65 0" result="c"/>
+  <feMerge><feMergeNode in="c"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter><rect x="1" y="1" width="34" height="50" rx="8" ry="8" fill="#00ffff"/>
+<polygon points="9.0,1 18.0,13 27.0,1" fill="#0b0e12"/><rect x="53" y="1" width="50" height="34" rx="8" ry="8" fill="#00ffff"/>
+<polygon points="53,9.0 65,18.0 53,27.0" fill="#0b0e12"/><rect x="38" y="1" width="34" height="50" rx="8" ry="8" fill="#00ffff"/>
+<polygon points="46.0,51 55.0,39 64.0,51" fill="#0b0e12"/><rect x="105" y="1" width="50" height="34" rx="8" ry="8" fill="#00ffff"/>
+<polygon points="155,9.0 143,18.0 155,27.0" fill="#0b0e12"/><g filter="url(#g)"><rect x="1" y="53" width="34" height="50" rx="8" ry="8" fill="#00ffff"/>
+<polygon points="9.0,53 18.0,65 27.0,53" fill="#0b0e12"/><rect x="53" y="53" width="50" height="34" rx="8" ry="8" fill="#00ffff"/>
+<polygon points="53,61.0 65,70.0 53,79.0" fill="#0b0e12"/><rect x="38" y="53" width="34" height="50" rx="8" ry="8" fill="#00ffff"/>
+<polygon points="46.0,103 55.0,91 64.0,103" fill="#0b0e12"/><rect x="105" y="53" width="50" height="34" rx="8" ry="8" fill="#00ffff"/>
+<polygon points="155,61.0 143,70.0 155,79.0" fill="#0b0e12"/></g></svg>
